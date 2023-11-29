@@ -1,0 +1,594 @@
+/*-----Mobile phone Config-----*/
+
+@media screen and (orientation: portrait),(max-width: 200px){
+
+html {
+    background-image: linear-gradient(aquamarine,lightblue);
+    height: 100%;
+   
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: rgb(137, 240, 128);
+    border: 6px double rgb(30, 20,100);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(79, 76, 76),white);
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 8px 8px 20px 8px black;
+    
+}
+
+#container { 
+    border: 6px double rgb(30, 20,100);
+    border-radius: 10px;
+    display: block;
+    background-image: linear-gradient(to top, rgb(79, 76, 76),white);
+    box-shadow: 10px 10px 40px 10px black;
+    
+}
+
+#scales {
+    width: 5rem;
+    height: 5rem;
+}
+
+#input {
+    height: 2rem;
+    width: 5.5rem;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 2px solid black;
+    background-color: rgba(151, 229, 252, 0.824);
+    color: black;
+    text-align: center;
+}
+
+#output {
+    height: 2rem;
+    width: 5.5rem;
+    justify-self: center;
+    margin-bottom: 2rem;
+    margin-right: 40px;
+    border: 2px solid black;
+    background-color: rgb(137, 240, 128);
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: rgb(137, 240, 128);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    
+}
+
+span {
+    color: rgb(137, 240, 128);
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+#output:hover {
+    background-color: rgba(96, 205, 92, 0.824)
+}
+#input:hover {
+    background-color: rgba(103, 175, 197, 0.824);
+}
+
+#instructions {
+    font-size: 15px;
+    color: rgb(137, 240, 128);
+    border: 6px double rgb(30, 20,100);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(143, 138, 138), rgb(201, 199, 197));
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 8px 8px 20px 8px rgb(11, 11, 11);
+}
+
+/*------Buttons-------*/
+#lbs_oz {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#lbs_oz:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#oz_lbs {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#oz_lbs:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+
+#oz_cups {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#oz_cups:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#cups_oz {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#cups_oz:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#oz_gal {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#oz_gal:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#gal_oz {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#gal_oz:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#qts_gal {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+
+#qts_gal:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#gal_qt {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#gal_qt:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#Tbs_tsp {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 10px;
+    font-size: 10px;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#Tbs_tsp:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#Tbs_C {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#Tbs_C:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#tsp_Tbs {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px;
+    justify-self: center;
+    margin-right: 140px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+#tsp_Tbs:hover {
+    background-color: rgba(71, 155, 219, 0.67);
+}
+
+#Clr {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px bold;
+    justify-self: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+
+#Clr:hover {
+    background-color: rgb(137, 240, 128);
+}
+
+#x2 {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px bold;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+
+#x2:hover {
+    background-color: rgb(137, 240, 128);
+}
+
+#x3 {
+    height: 3rem;
+    width: 3rem;
+    font-size: 10px bold;
+    justify-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 236);
+    box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+}
+
+#x3:hover {
+    background-color: rgb(137, 240, 128);
+}
+
+}
+
+/*-----Landscape Config-----*/
+@media screen and (orientation: landscape),(min-width: 1200px){
+    html {
+        background-image:linear-gradient(aquamarine,lightblue);
+        height: 100%;
+       
+    }
+    
+    header {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        color: rgb(137, 240, 128);
+        border: 6px double rgb(30, 20,100);
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(79, 76, 76),white);
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 8px 8px 20px 8px black;
+        
+    }
+    
+    #container { 
+        border: 6px double rgb(30, 20,100);
+        border-radius: 10px;
+        display: block;
+        background-image: linear-gradient(to top, rgb(79, 76, 76),white);
+        box-shadow: 10px 10px 40px 10px black;
+        
+    }
+    
+    #scales {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    #input {
+        height: 2rem;
+        width: 5.5rem;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-top: 15px;
+        border: 2px solid black;
+        background-color: rgba(151, 229, 252, 0.824);
+        color: black;
+        text-align: center;
+    }
+    
+    #output {
+        height: 2rem;
+        width: 5.5rem;
+        justify-self: center;
+        margin-bottom: 2rem;
+        margin-right: 5px;
+        border: 2px solid black;
+        background-color: rgb(137, 240, 128);
+        color: black;
+        text-align: center;
+    }
+    
+    p {
+        color: rgb(137, 240, 128);
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        font-size: 15px;
+        
+    }
+    
+    span {
+        color: rgb(137, 240, 128);
+        text-shadow: 3px 3px 3px black;
+        
+    }
+    
+    #output:hover {
+        background-color: rgba(96, 205, 92, 0.824)
+    }
+    #input:hover {
+        background-color: rgba(103, 175, 197, 0.824);
+    }
+    
+    /*------Buttons-------*/
+    #lbs_oz {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #lbs_oz:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #oz_lbs {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #oz_lbs:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    
+    #oz_cups {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #oz_cups:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #cups_oz {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #cups_oz:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #oz_gal {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #oz_gal:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #gal_oz {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #gal_oz:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #qts_gal {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    
+    #qts_gal:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #gal_qt {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #gal_qt:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #Tbs_tsp {
+        height: 3rem;
+        width: 3rem;
+        margin-bottom: 10px;
+        font-size: 10px;
+        justify-self: center;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #Tbs_tsp:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #Tbs_C {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #Tbs_C:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #tsp_Tbs {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px;
+        justify-self: center;
+        margin-left: 300px;
+        margin-right: 310px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    #tsp_Tbs:hover {
+        background-color: rgba(71, 155, 219, 0.67);
+    }
+    
+    #Clr {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px bold;
+        justify-self: center;
+        margin-left: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    
+    #Clr:hover {
+        background-color: rgb(137, 240, 128);
+    }
+    
+    #x2 {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px bold;
+        justify-self: center;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    
+    #x2:hover {
+        background-color: rgb(137, 240, 128);
+    }
+    
+    #x3 {
+        height: 3rem;
+        width: 3rem;
+        font-size: 10px bold;
+        justify-self: center;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: rgb(249, 243, 236);
+        box-shadow: 1.5px 1.5px 1.5px rgb(94, 90, 90);
+    }
+    
+    #x3:hover {
+        background-color: rgb(137, 240, 128);
+    }
+    
+    #instructions {
+        height: 2.5rem;
+        font-size: 15px;
+        color: rgb(137, 240, 128);
+        border: 6px double rgb(30, 20,100);
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(143, 138, 138),rgb(201, 199, 197));
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        box-shadow: 8px 8px 20px 8px rgb(11, 11, 11);
+    }
+}
